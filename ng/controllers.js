@@ -248,7 +248,7 @@ angular.module('Peon.controllers', [])
 
 .controller('CtrlBackup', function($scope,$http,$timeout) {
   $scope.thisFolder = '/opt/minepeon/';
-  $scope.backupFolder = '/opt/minepeon/backup/';
+  $scope.backupFolder = '/opt/minepeon/etc/backup/';
   $scope.backupName = GetDateTime();
   $scope.backups = [];
   $scope.restoring = 0;
